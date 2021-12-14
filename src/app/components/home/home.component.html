@@ -14,6 +14,11 @@
     .card {
       margin: 20px;
     }
+
+    .img-home{
+      width: 100%;
+      height: 800px;
+    }
   </style>
 </head>
 
@@ -22,12 +27,26 @@
   <br>
   <hr>
   <div class="container">
-    <div class="row">
-      <div class="carousel-item active">
-        <img
-          src="https://lh3.googleusercontent.com/proxy/3YSwYqUHjFzlYTe6iCBdkpxF_PNxzcr3tVI79h3GoL1HGAZ1Sk40ngFXVuYrcX0OdjqqJqR9YkSnn9wLQQ4StjW9LkFFXSt-1KZWII7_ITNPGISF6RxhyJwu8fqEiYs"
-          class="card-img-top w-100 h-100" alt="...">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://lh6.googleusercontent.com/CLOf72dHTh5cRPOmwrqfppqTNw63jWr8ahnZ2uOMndXCc2qb3CCkEJlK_GPO-TLRkUbb3d0y7MiPSEX9s-3nr6QoP4Sr2v0wALEqKNDjrmD6wv3VoEyWyWw_xcWxGfmaVPP34FwX" class="d-block w-100 img-home" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.kapook.com/u/2021/sireeporn/Home-6/A00.jpg" class="d-block w-100 img-home" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.banidea.com/wp-content/uploads/2012/02/white_bathroom_decor.jpg" class="d-block w-100 img-home" alt="...">
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <hr>
     <div class="row">
